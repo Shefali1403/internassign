@@ -1,0 +1,35 @@
+{
+    "data":[
+    {
+        "id":6,
+        "className":"post card6",
+        "name":"Petra",
+        "img":"https://cdn.britannica.com/24/153524-050-BA9D084B/Al-Dayr-Petra-Jordan.jpg"
+    },
+    {
+        "id":7,
+        "className":"post card7",
+        "name":"India gate",
+        "img":"https://indiacsr.in/wp-content/uploads/2022/07/India-Gate.jpg"
+    },
+    {
+        "id":8,
+        "className":"post card8",
+        "name":"New York",
+        "img":"https://www.travelandleisure.com/thmb/91pb8LbDAUwUN_11wATYjx5oF8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg"
+    },
+    {
+        "id":9,
+        "className":"post card9",
+        "name":"Red Fort",
+        "img":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/3c/4a/42/fb-img-1502472371491.jpg?w=1200&h=-1&s=1"
+    },
+    {
+        "id":10,
+        "className":"post card10",
+        "name":"London",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/278px-London_Skyline_%28125508655%29.jpeg"
+    }
+]
+
+}

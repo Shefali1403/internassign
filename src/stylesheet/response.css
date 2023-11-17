@@ -1,0 +1,574 @@
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .container2 {
+    width: 40vw;
+    height: 50vh;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 0.5rem;
+  }
+  .navbar-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 0.5rem;
+    width: 100vw;
+    align-items: center;
+    height: 20vh;
+    position: fixed;
+    border-bottom: 1px solid grey;
+  }
+  .navbar-cont .menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 6vh;
+    margin-top: 0rem;
+  }
+  .navbar-cont .menu li {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .navbar-cont .menu li p {
+    /* margin-left: 1rem; */
+    font-size: 14px;
+    position: relative;
+    right: 16%;
+    top: 29%;
+  }
+  .post-create-icon {
+    width: 11vw;
+    height: 6vh;
+    position: relative;
+    right: 13%;
+    top: 10%;
+  }
+  .navbar-cont .logo {
+    height: 10vh;
+  }
+  .navbar-cont .logo img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 16vw;
+  }
+  .main-cont {
+    margin-left: 0rem;
+    margin-top: 15rem;
+    /* background-color: blue;  */
+    grid-template-rows: 10% 90%;
+    row-gap: 1rem;
+  }
+  .main-cont .user {
+    margin-left: 15rem;
+  }
+  .content-posts {
+    margin-left: 17.4rem;
+  }
+  .content-posts .post {
+    width: 63vw;
+    height: 48vh;
+    border: 1px solid grey;
+  }
+  .content-posts .post img {
+    width: 62.7vw;
+  }
+  .content-posts .icons {
+    margin-top: 1rem;
+    margin-right: 16rem;
+  }
+  .comment-box {
+    top: 5%;
+    right: 47%;
+  }
+  .comment-box button {
+    margin-top: 1.3rem;
+    height: 3vh;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 999px) {
+  .container2 {
+    width: 48vw;
+    height: 49vh;
+  }
+  .head {
+    margin-top: 3rem;
+  }
+  .box #first input {
+    width: 24vw;
+    height: 3vh;
+  }
+  .box #sec input {
+    width: 24vw;
+    height: 3.4vh;
+  }
+  .container {
+    /* background-color: rgb(235, 67, 98);  */
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 0.5rem;
+  }
+  .navbar-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 0.5rem;
+    width: 100vw;
+    align-items: center;
+    height: 20vh;
+    position: fixed;
+    border-bottom: 1px solid grey;
+  }
+  .navbar-cont .menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 6vh;
+    margin-top: 0rem;
+  }
+  .navbar-cont .menu li {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .navbar-cont .menu li p {
+    /* margin-left: 1rem; */
+    font-size: 14px;
+    /* margin-top: 1rem; */
+    position: relative;
+    right: 16%;
+    top: 29%;
+  }
+  .post-create-icon {
+    width: 13vw;
+    height: 6vh;
+    position: relative;
+    right: 13%;
+    top: 10%;
+  }
+  .navbar-cont .logo {
+    height: 7vh;
+  }
+  .navbar-cont .logo img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 16vw;
+  }
+  .main-cont {
+    margin-left: 0rem;
+    margin-top: 15rem;
+    /* background-color: blue;  */
+    grid-template-rows: 10% 90%;
+    row-gap: 1rem;
+  }
+  .main-cont .user {
+    margin-left: 15rem;
+  }
+  .content-posts {
+    margin-left: 13.4rem;
+  }
+  .content-logo {
+    left: 16%;
+    top: 177%;
+  }
+  .content-posts .post {
+    width: 63vw;
+    height: 48vh;
+    border: 1px solid grey;
+  }
+  .content-posts .post img {
+    width: 62.7vw;
+  }
+  .content-posts .icons {
+    margin-top: 1rem;
+    margin-right: 14rem;
+  }
+  .comment-box {
+    top: 5%;
+    right: 47%;
+  }
+  .comment-box button {
+    margin-top: 1.3rem;
+    height: 3vh;
+  }
+}
+@media screen and (min-width: 702px) and (max-width: 849px) {
+  .login-logo img {
+    width: 5vw;
+  }
+  .container2 {
+    width: 59vw;
+    height: 43vh;
+  }
+  .head {
+    margin-top: 2rem;
+  }
+  .box #first input {
+    width: 30vw;
+    height: 3vh;
+  }
+  .box #sec input {
+    width: 30vw;
+    height: 3.4vh;
+  }
+  .box button {
+    width: 43vw;
+    font-size: 1rem;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 0.5rem;
+    /* background-color: greenyellow;  */
+  }
+  .navbar-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    border-bottom: 1px solid grey;
+  }
+  .navbar-cont .menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 6vh;
+    margin-top: 1rem;
+  }
+  .navbar-cont .menu li {
+    flex-direction: column;
+    margin: 0.2rem;
+  }
+  .navbar-cont .menu li p {
+    /* margin-left: 1rem; */
+    font-size: 11px;
+    /* margin-top: 1rem; */
+    position: relative;
+    right: 24%;
+    top: 29%;
+  }
+  .reel-icon {
+    width: 6px;
+    height: 3vh;
+  }
+  .font {
+    font-size: 18px;
+  }
+  .post-create-icon {
+    width: 13vw;
+    height: 4vh;
+    position: relative;
+    right: 25%;
+    top: 10%;
+  }
+  .navbar-cont .logo {
+    height: 5vh;
+    margin-top: 0rem;
+  }
+  .navbar-cont .logo img {
+    margin-left: 2rem;
+    margin-top: 0rem;
+    width: 22vw;
+  }
+  .main-cont {
+    margin-left: 0rem;
+    margin-top: 10rem;
+    /* background-color: blue;  */
+    grid-template-rows: 10% 90%;
+    row-gap: 1rem;
+  }
+  .main-cont .user {
+    margin-left: 16rem;
+  }
+  .content-posts {
+    margin-left: 11rem;
+  }
+  .content-logo {
+    left: 16%;
+    top: 177%;
+  }
+  .content-posts .post {
+    width: 75vw;
+    height: 48vh;
+    border: 1px solid grey;
+  }
+  .content-posts .post img {
+    width: 74.5vw;
+    height: 47.6vh;
+  }
+  .content-posts .icons {
+    margin-top: 1rem;
+    margin-right: 16rem;
+  }
+  .comment-box {
+    top: 5%;
+    right: 52%;
+  }
+  .comment-box button {
+    margin-top: 1.3rem;
+    height: 5vh;
+    width: 18vw;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 701px) {
+  .login-logo img {
+    width: 7vw;
+  }
+  .container2 {
+    width: 70vw;
+    height: 43vh;
+  }
+  .head {
+    margin-top: 2rem;
+  }
+  .box #first input {
+    width: 38vw;
+    height: 3vh;
+  }
+  .box #sec input {
+    width: 38vw;
+    height: 3.4vh;
+  }
+  .box button {
+    width: 59vw;
+    font-size: 1.4rem;
+    height: 4vh;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 0.5rem;
+    /* background-color: purple;  */
+  }
+  .navbar-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    border-bottom: 1px solid grey;
+  }
+  .navbar-cont .menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 6vh;
+    margin-top: 1rem;
+    column-gap: 0rem;
+  }
+  .navbar-cont .menu li {
+    flex-direction: column;
+    margin: 0.2rem;
+  }
+  .navbar-cont .menu li p {
+    /* margin-left: 1rem; */
+    font-size: 10px;
+    /* margin-top: 1rem; */
+    position: relative;
+    right: 24%;
+    top: 29%;
+  }
+  .reel-icon {
+    width: 6px;
+    height: 3vh;
+  }
+  .font {
+    font-size: 20px;
+  }
+  .post-create-icon {
+    width: 15vw;
+    height: 4vh;
+    position: relative;
+    right: 25%;
+    top: 10%;
+  }
+  .navbar-cont .logo {
+    height: 5vh;
+    margin-top: 0rem;
+  }
+  .navbar-cont .logo img {
+    margin-left: 2rem;
+    margin-top: 0rem;
+    width: 22vw;
+  }
+  .main-cont {
+    margin-left: 0rem;
+    margin-top: 10rem;
+    /* background-color: blue;  */
+    grid-template-rows: 10% 90%;
+    row-gap: 1rem;
+  }
+  .main-cont .user {
+    margin-left: 18rem;
+  }
+  .content-posts {
+    margin-left: 10rem;
+  }
+  .content-logo {
+    left: 8%;
+    top: 177%;
+  }
+  .content-posts .post {
+    width: 83vw;
+    height: 48vh;
+    border: 1px solid grey;
+  }
+  .content-posts .post img {
+    width: 83vw;
+    height: 47.6vh;
+  }
+  .content-posts .icons {
+    margin-top: 1rem;
+    margin-right: 19rem;
+  }
+  .comment-box {
+    top: 5%;
+    right: 58%;
+  }
+  .comment-box button {
+    margin-top: 1.3rem;
+    height: 5vh;
+    width: 24vw;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .login-logo img {
+    width: 8vw;
+  }
+  .container2 {
+    width: 75vw;
+    height: 43vh;
+  }
+  .head {
+    margin-top: 2rem;
+  }
+  .head h1 {
+    font-size: 1.2rem;
+  }
+  .box #first input {
+    width: 40vw;
+    height: 3vh;
+    position: relative;
+    right: 10%;
+  }
+  #first label {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .box #sec input {
+    width: 40vw;
+    height: 3.4vh;
+    position: relative;
+    right: 10%;
+    /* margin-right: 2rem;    */
+  }
+  #sec label {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .box button {
+    width: 59vw;
+    font-size: 1rem;
+    height: 4vh;
+    margin-top: 1rem;
+  }
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 0.5rem;
+    /* background-color: pink;  */
+  }
+  .navbar-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    border-bottom: 1px solid grey;
+  }
+  .navbar-cont .menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 6vh;
+    margin-top: 1rem;
+    column-gap: 0rem;
+  }
+  .navbar-cont .menu li {
+    flex-direction: column;
+    margin: 0.2rem;
+  }
+  .navbar-cont .menu li p {
+    /* margin-left: 1rem; */
+    font-size: 7px;
+    /* margin-top: 1rem; */
+    position: relative;
+    right: 34%;
+    top: 29%;
+  }
+  .reel-icon {
+    width: 5px;
+  }
+  .font {
+    font-size: 10px;
+  }
+  .post-create-icon {
+    width: 13vw;
+    height: 3vh;
+    position: relative;
+    right: 25%;
+    top: 10%;
+  }
+  .navbar-cont .logo {
+    height: 5vh;
+    margin-top: 0rem;
+  }
+  .navbar-cont .logo img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 25vw;
+  }
+  .main-cont {
+    margin-left: 0rem;
+    margin-top: 9rem;
+    /* background-color: blue;  */
+    grid-template-rows: 10% 90%;
+    row-gap: 1rem;
+  }
+  .main-cont .user {
+    margin-left: 10rem;
+  }
+  .content-posts {
+    margin-left: 6rem;
+  }
+  .content-logo {
+    left: 16%;
+    top: 177%;
+    font-size: 0.7rem;
+  }
+  .content-posts .post {
+    width: 75vw;
+    height: 48vh;
+    border: 1px solid grey;
+  }
+  .content-posts .post img {
+    width: 74vw;
+    height: 47.6vh;
+  }
+  .content-posts .icons {
+    margin-top: 1rem;
+    margin-right: 9rem;
+  }
+  .comment-box {
+    top: 5%;
+    right: 28%;
+  }
+  .comment-box button {
+    margin-top: 1.3rem;
+    height: 5vh;
+    width: 30vw;
+  }
+}
